@@ -92,9 +92,10 @@ main section.imagem02{
 
 footer{
     background-color: black;
+    margin: 0px;
     padding: 1px;
-    margin-top: 10px;
-    border: 10px solid black;
+    padding-bottom: 5px;
+    border: 1px solid black;
 }
 footer p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
