@@ -16,26 +16,19 @@ header{
     background-color: black;
     padding-top: 100px;
     border: 10px solid black;
-    margin-top: 0px;
+    text-align: center;
     
 }
 header h1{
     font-family: 'Passion One';
     font-size: 100px;
-    padding: 10px;
     color: white;
-    text-align: center;
-    margin: 10px;
 }
 header h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: white;
-    text-align: center;
-    margin-top: 0px;
-    border: 0px;
-    padding: 15px 5px;
-    padding: 10px;
+    padding-bottom: 30px;
 }
 header a:hover{
     color: rgb(231, 120, 120);
@@ -54,9 +47,13 @@ main p{
     padding: auto;
 }
 section{
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 4em;
     display: block;
 }
-main section.imagem01{
+section.imagem01{
     margin: 0px;
     background-size:1200px 1000px;
     background: url(imagens/background001.jpg);
