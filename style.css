@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
 body{
+    min-height: 100vh; ;
     background-color:white;
 }
 *{
@@ -21,7 +22,7 @@ header{
 }
 header h1{
     font-family: 'Passion One';
-    font-size: 100px;
+    font-size: 10vw;
     color: white;
 }
 header h2{
@@ -39,8 +40,6 @@ header a:hover{
 }
 main p{
     font-family:'Sriracha';
-    font-size: 2em;
-    padding:15px 15px;
     margin: 15px;
     font-style: italic;
     text-align:left;
@@ -50,8 +49,8 @@ section{
     padding-top:10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    line-height: 4em;
-    display: block;
+    line-height: 2em;
+    font-size: 4.5vw;
 }
 section.imagem01{
     margin: 0px;
@@ -63,11 +62,10 @@ section.imagem01{
 
 }
 div p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.432);
     color: white;
-    max-width: 390px;
-    width: auto;
-    height: auto;
+    max-width: 700px;
     
 }
 
