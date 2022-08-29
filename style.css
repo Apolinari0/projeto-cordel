@@ -66,6 +66,7 @@ div p{
     background-color: rgba(0, 0, 0, 0.432);
     color: white;
     max-width: 700px;
+    border: 5px solid rgba(0, 0, 0, 0.432);
     
 }
 
